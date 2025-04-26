@@ -1,3 +1,9 @@
-export default function Page() {
-    return <p>Customers Page</p>;
-  }
+import CatedraticosComp from '@/app/dashboard/customers/catedraticos';
+
+export default function CatedraticosPage() {
+  return (
+    <div>
+      <CatedraticosComp />
+    </div>
+  );
+}
