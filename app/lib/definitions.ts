@@ -86,3 +86,25 @@ export type InvoiceForm = {
   amount: number;
   status: 'pending' | 'paid';
 };
+
+export type Schoolar ={
+  id: string; // Primary Ray
+  grade: string;
+  name: string;
+  type: string;
+  title: string;
+  certificate: string;
+}
+export type Teacher ={
+  id: string;
+  name: string;
+  first_name: string;
+  last_name: string;
+  email: string; 
+  phone: string;
+  grade: string;
+  address: string;
+  schoolar_id: string;
+  Birthday: string; 
+  status: 'active' | 'inactive'; // Estado del profesar
+}

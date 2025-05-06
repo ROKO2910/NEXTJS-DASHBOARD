@@ -7,17 +7,25 @@ import {
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import clsx from 'clsx';
+import { FileSpreadsheet } from 'lucide-react';
 
 // Map of links to display in the side navigation.
 // Depending on the size of the application, this would be stored in a database.
 const links = [
-  { name: 'Home', href: '/dashboard', icon: HomeIcon },
+  { name: 'Inicio', href: '/dashboard', icon: HomeIcon },
   {
-    name: 'Invoices',
-    href: '/dashboard/invoices',
-    icon: DocumentDuplicateIcon,
+    name: 'Catedratico',
+    href: '/dashboard/customers',
+    icon: UserGroupIcon,
   },
-  { name: 'Customers', href: '/dashboard/customers', icon: UserGroupIcon },
+  { name: 'Materias', 
+    href: '/dashboard/invoices', 
+    icon: DocumentDuplicateIcon },
+  {
+    name: 'Tabla de resultados',
+    href: '/dashboard/tablacatedraticos',
+    icon: FileSpreadsheet,
+  },
 ];
 
 export default function NavLinks() {

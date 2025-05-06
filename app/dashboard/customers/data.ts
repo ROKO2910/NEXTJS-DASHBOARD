@@ -127,7 +127,7 @@ export type Estudio = {
           modalidad: "En línea",
           clases: "Literatura Contemporánea",
           status: "Activo",
-          motivoBaja: "N/A",
+          motivoBaja: "Enfermedad",
           recomendaReingreso: "Sí"
         }
       ],
@@ -159,55 +159,60 @@ export type Estudio = {
     {
       id: 3,
       nombre: "Mtra. Laura Hernández",
-      especialidad: "Literatura",
-      fechaNacimiento: "1982-03-22",
-      titulo: "Maestría en Letras Hispánicas",
-      escuelaAval: "UAM",
+      especialidad: "Psicología",
+      fechaNacimiento: "1979-08-25",
+      titulo: "Maestría en Psicología Educativa",
+      escuelaAval: "UdeG",
       estudios: [
         {
           nivel: "Licenciatura",
-          descripcion: "Letras Hispánicas",
-          institucion: "UAM"
+          descripcion: "Psicología",
+          institucion: "UdeG"
         },
         {
           nivel: "Maestría",
-          descripcion: "Literatura Latinoamericana",
-          institucion: "UAM"
+          descripcion: "Psicología Educativa",
+          institucion: "UdeG"
+        },
+        {
+          nivel: "Doctorado",
+          descripcion: "Educación Inclusiva",
+          institucion: "IPN"
         }
       ],
       asignaciones: [
         {
-          licenciatura: "Lengua y Literatura",
-          ciclo: "2023-2",
-          modalidad: "En línea",
-          clases: "Literatura Contemporánea",
+          licenciatura: "Psicología",
+          ciclo: "2024-1",
+          modalidad: "Presencial",
+          clases: "Psicología del Desarrollo",
           status: "Activo",
-          motivoBaja: "N/A",
+          motivoBaja: "ND",
           recomendaReingreso: "Sí"
         }
       ],
       experiencia: [
         {
-          descripcion: "Editora de textos",
-          institucion: "Editorial Planeta",
-          fecha: "2008-2013"
+          descripcion: "Psicóloga escolar",
+          institucion: "Colegio Cervantes",
+          fecha: "2005-2012"
         },
         {
-          descripcion: "Docente universitaria",
-          institucion: "UAM",
-          fecha: "2013-Actualidad"
+          descripcion: "Docente e Investigadora",
+          institucion: "UdeG",
+          fecha: "2012-Actualidad"
         }
       ],
       evaluaciones: [
         {
-          ciclo: "2023-1",
-          calificacion: "9.0",
+          ciclo: "2024-1",
+          calificacion: "9.3",
           comentarios: "Muy dinámica en clases"
         },
         {
-          ciclo: "2023-2",
-          calificacion: "9.2",
-          comentarios: "Estímulo a la participación"
+          ciclo: "2024-2",
+          calificacion: "9.6",
+          comentarios: "Fomenta un ambiente inclusivo"
         }
       ]
     },
